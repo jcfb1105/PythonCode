@@ -1,0 +1,184 @@
+menu = (""Bienvenidos al conversor de monedas
+
+1 - Pesos colombianos
+2 - Pesos argentinos
+3 - Pesos mexicanos 
+
+Elige una opcion:
+""
+opcion = int(input(menu))
+
+
+
+if opcion == 1:
+    pesos = input("¿Cuantos pesos colombianos tienes?: ")
+    pesos = float(pesos)
+    valor_dolar = 3875
+    dolares = pesos / valor_dolar
+    dolares = round(dolares, 2)
+    dolares = str(dolares)
+    print("Tienes $" + dolares + "dolares")
+elif opcion == 2:
+     pesos = input("¿Cuantos pesos argentinos tienes?: ")
+     pesos = float(pesos)
+     valor_dolar = 65
+     dolares = pesos / valor_dolar
+     dolares = round(dolares, 2)
+     dolares = str(dolares)
+     print("Tienes $" + dolares + "dolares")
+elif opcion == 3:
+    pesos = input("¿Cuantos pesos mexicanos tienes?: ")
+    pesos = float(pesos)
+    valor_dolar = 24
+    dolares = pesos / valor_dolar
+    dolares = round(dolares, 2)
+    dolares = str(dolares)
+    print("Tienes $" + dolares + "dolares")
+else:
+    print(´Ingresa una opcion correcta por favor´)
+______________________________
+menu = (""Bienvenidos al conversor de monedas
+
+1 - Pesos colombianos
+2 - Pesos argentinos
+3 - Pesos mexicanos 
+
+Elige una opcion:
+""
+opcion = int(input(menu))
+
+
+
+if opcion == 1:
+    pesos = input("¿Cuantos pesos colombianos tienes?: ")
+    pesos = float(pesos)
+    valor_dolar = 3875
+    dolares = pesos / valor_dolar
+    dolares = round(dolares, 2)
+    dolares = str(dolares)
+    print("Tienes $" + dolares + "dolares")
+elif opcion == 2:
+     pesos = input("¿Cuantos pesos argentinos tienes?: ")
+     pesos = float(pesos)
+     valor_dolar = 65
+     dolares = pesos / valor_dolar
+     dolares = round(dolares, 2)
+     dolares = str(dolares)
+     print("Tienes $" + dolares + "dolares")
+elif opcion == 3:
+    pesos = input("¿Cuantos pesos mexicanos tienes?: ")
+    pesos = float(pesos)
+    valor_dolar = 24
+    dolares = pesos / valor_dolar
+    dolares = round(dolares, 2)
+    dolares = str(dolares)
+    print("Tienes $" + dolares + "dolares")
+else:
+    print(´Ingresa una opcion correcta por favor´)
+
+
+
+# temperatura = 12
+# estatura = 1.56
+# nombre = "Scott"
+# print (nombre)
+# nombre = 12384
+# print (nombre)
+# nombre = 34.5
+# print (nombre)
+# nombre = "fABIO"
+# print (nombre)
+
+# print (temperatura + estatura) 
+# print(nombre+nombre+nombre)
+# print('La estatura de '+nombre+' es '+str(estatura))
+
+# nombre = input('Digite su nombre: ')
+# print('Su nombre es '+nombre)
+
+
+# sueldo = input('Digite su sueldo: ')
+# sueldo = int(sueldo)
+# print('Su sueldo es '+str(sueldo+200000
+
+
+
+# precio_producto = input('Digite el precio: ')
+# precio_producto_num = float(precio_producto)
+# iva = 0.19
+# valor_iva = precio_producto_num * iva
+# valor_iva_str = str( valor_iva )
+# print('El iva es: '+ valor_iva_str )
+
+
+# precio_producto = input('Digite el precio: ')
+# precio_producto = float(precio_producto)
+# iva = 0.19
+# print('El iva es: '+ str(precio_producto * iva) )
+# print('El total es: '+str(precio_producto + (precio_producto * iva)))
+
+
+# def sumar_numeros():
+#     print(65+51)
+#     print(65+51)
+
+# sumar_numeros()
+
+
+# def calcular_doble(valor:int):
+#     print(valor*2)   
+
+# def calcular_cuadrado(numero:int):
+#     print(numero*numero)
+    
+# calcular_cuadrado(int(input('Digite un número: ')))
+# # calcular_doble('hola')
+# -----------------------------------------------------
+# def calcular_doble(valor:int):
+#     print(valor*2)   
+
+# def calcular_cuadrado(numero:int):
+#     print(numero*numero)
+    
+# parametro = input('Digite un número: ')
+# parametro = int(parametro)
+    
+# calcular_cuadrado(parametro)
+
+# -----------------------------------------------------
+# def saludar():
+#     return 'Hola mundo'
+
+# print(saludar())
+# ---------------------------------------------------
+
+# def saludar() -> str:
+#     return 'Hola mundo'
+
+# print(saludar())
+# -----------------------------------------------------
+# def calcular_total(num1, num2, num3):
+#     total_local = num1 + num2 + num3
+#     return total_local
+
+# numero_1 = input('Primer número: ')
+# numero_2 = input('Segundo número: ')
+# numero_3 = input('Tercero número: ')
+
+# total = calcular_total(numero_1, numero_2, numero_3)
+
+# print(total)
+# ------------------------------------------------------
+# def calcular_total(num1, num2, num3):
+#     return num1 + num2 + num3
+#     # return total_local
+
+# def promedio():
+#     numero_1 = float(input('Primer número: '))
+#     numero_2 = float(input('Segundo número: '))
+#     numero_3 = float(input('Tercero número: '))
+#     return  calcular_total(numero_1, numero_2, numero_3) / 3
+#     # return total/3
+
+# print(promedio())
+
